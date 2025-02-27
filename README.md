@@ -1,5 +1,7 @@
 # 🐱 Meow Attack Simulation & Expansion
 
+![Meow Attack](assets/Meow_Attack_Visual.png)
+
 Welcome to the **Meow Attack Simulation & Expansion** repository! This project builds upon my blog post: [Feline Hackers Among Us: A Deep Dive and Simulation of the Meow Attack](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/feline-hackers-among-us-a-deep-dive-and-simulation-of-the-meow-attack/). 
 
 This repository serves as an experimental playground where I make improvements, extend my original research, and provide additional tools for understanding the **Meow Attack** and similar database-targeting threats.
