@@ -85,9 +85,8 @@ This project is licensed under the [MIT License](LICENSE), meaning you are free 
 
 ## 📬 Contact & Follow-Up
 Want to discuss security topics, improvements, or just say hi? Feel free to reach out or follow my work on:
-- **Twitter/X:** [@yourhandle](https://twitter.com/yourhandle)
-- **GitHub:** [github.com/your-github-username](https://github.com/your-github-username)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **GitHub:** [github.com/your-github-username](https://github.com/karlvbiron)
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/karlbiron/)
 
 Stay secure, and remember—**never leave your database unprotected!** 🛡️🐱
 
