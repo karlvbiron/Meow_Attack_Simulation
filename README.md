@@ -41,8 +41,8 @@ If you're unfamiliar with ethical hacking and security research, consider learni
 
 ## 🛠️ Getting Started
 ### Prerequisites
-- **MongoDB** and **Elasticsearch** installed and running on a test machine.
-- **Python 3.x** with required dependencies (`pymongo`, `elasticsearch-py`, etc.).
+- **MongoDB** installed and running on a test machine (eg. Docker, VM, Cloud, etc).
+- **Python 3.x** with required dependencies (`pymongo`).
 - A **controlled, isolated environment** to safely execute scripts.
 
 ### Installation
