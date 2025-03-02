@@ -5,7 +5,13 @@ from pymongo import MongoClient
 def random_alphanumeric():
     return ''.join(random.choices(string.ascii_letters + string.digits, k=10))
 
-client = MongoClient('mongodb://localhost:27017/')
+try:
+    client = MongoClient('mongodb://localhost:27017/', serverSelectionTimeoutMS=5000)
+    client.admin.command('ping')  # Verify connection
+    print("Successfully connected to MongoDB")
+except Exception as e:
+    print(f"Failed to connect to MongoDB: {e}")
+    exit(1)
 
 databases = client.list_database_names()
 for db_name in databases:
