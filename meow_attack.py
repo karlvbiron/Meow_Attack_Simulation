@@ -1,6 +1,11 @@
 import random
 import string
 from pymongo import MongoClient
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 def random_alphanumeric():
     return ''.join(random.choices(string.ascii_letters + string.digits, k=10))
@@ -14,14 +19,20 @@ except Exception as e:
     exit(1)
 
 databases = client.list_database_names()
+logger.info(f"Found {len(databases)} databases")
+
 for db_name in databases:
     if db_name not in ('admin', 'local', 'config'):
         db = client[db_name]
         collections = db.list_collection_names()
+        logger.info(f"Processing database '{db_name}' with {len(collections)} collections")
+
         for collection_name in collections:
             collection = db[collection_name]
-            documents = collection.find()
-            for doc in documents:
+            total_docs = collection.count_documents({})
+            logger.info(f"Processing collection '{collection_name}' with {total_docs} documents")
+
+            for doc in collection.find():
                 updated_doc = {}
                 for key, value in doc.items():
                     if isinstance(value, str):
