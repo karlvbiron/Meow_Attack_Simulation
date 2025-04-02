@@ -71,7 +71,7 @@ Meow_Attack_Tool/
 ![Meow_Attack_Tool_Banner_1](assets/Meow_Attack_Tool_Banner_1.png) 
 ![Meow_Attack_Tool_Banner_2](assets/Meow_Attack_Tool_Banner_2.png) \
 ![Meow_Attack_Tool_Banner_3](assets/Meow_Attack_Tool_Banner_3.png)
-![Meow_Attack_Tool_Banner_4](assets/Meow_Attack_Tool_Banner_4.png) \
+![Meow_Attack_Tool_Banner_4](assets/Meow_Attack_Tool_Banner_4.png)
 
 ## Attack Sequence Demonstartion
 
