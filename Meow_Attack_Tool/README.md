@@ -66,6 +66,21 @@ Meow_Attack_Tool/
 └── meow_attack_tool.py
 ```
 
+## Banners 
+
+![Meow_Attack_Tool_Banner_1](assets/Meow_Attack_Tool_Banner_1.png) 
+![Meow_Attack_Tool_Banner_2](assets/Meow_Attack_Tool_Banner_2.png) \
+![Meow_Attack_Tool_Banner_3](assets/Meow_Attack_Tool_Banner_3.png)
+![Meow_Attack_Tool_Banner_4](assets/Meow_Attack_Tool_Banner_4.png) \
+
+## Attack Sequence Demonstartion
+
+![docker_compose_up](assets/docker_compose_up.png)
+![fetch_initial](assets/fetch_initial.png)
+![mongo_attack](assets/mongo_attack.png)
+![els_attack](assets/els_attack.png)
+![fetch_final](assets/fetch_final.png)
+
 ## Disclaimer
 
 This tool is provided for **EDUCATIONAL PURPOSES ONLY**. It is designed to demonstrate a type of cyber attack in a controlled environment to help improve security awareness and defensive measures. Using this tool against systems without proper authorization is illegal and unethical. The authors and contributors are not responsible for any misuse of this software.
